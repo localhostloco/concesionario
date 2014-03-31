@@ -1,0 +1,258 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07-dic-2013, 14:15:08
+    Author     : Daniel
+*/
+header {
+	margin: 10px;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+	margin: 0;
+}
+body {
+    background: url(../img/background.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 50px 100px 50px 100px;
+	background-color: #A2BFEE;
+	
+}
+
+a {
+    text-decoration: underline;
+    font-size: 20px;
+    color: blue;
+    margin: 0 5px;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+footer {
+	background-color:grey;
+    border:1px solid;
+    border-color: white;
+    border-radius:16px;
+    color: #ffffff;
+	margin: 100px 0 10px 0;
+	text-align: center;
+	font-weight: bold;
+}
+
+nav {
+    background-color:grey;
+    height:40px;
+    border:1px solid;
+    border-color: white;
+    border-radius:16px;
+    color: #ffffff;
+	margin: 5px 0 10px 0;
+}
+
+
+nav ul {
+    font-family: Arial, Verdana;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: auto;
+    border-radius:16px;
+}
+
+nav ul li {
+    display: block;
+    position: relative;
+    float: left;
+    width: auto;
+    border-radius:16px;
+}
+
+nav li ul { 
+    display: none; 
+    width: auto;
+    border-radius:16px;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 7px 15px 3px 15px;
+    background: grey;
+    color: #ffffff;  
+    margin-left: 1px;
+    white-space: nowrap;
+    height:30px; /* Width and height of top-level nav items */
+    width: auto;
+    text-align:center;
+    border-radius:16px;
+
+}
+
+nav ul li a:hover { 
+    background: #617F8A; 
+    width: auto;
+    border-radius:16px;
+}
+
+nav li:hover ul {
+    display: block;
+    position: absolute;
+    height:20px;
+    width: auto;
+    border-radius:16px;
+}
+
+nav li:hover li {
+    float: none;
+    font-size: 11px;
+    width: auto;
+    border-radius:16px;
+}
+
+nav li:hover a { 
+    background: #3A464F; 
+    height:30px; /* Height of lower-level nav items is shorter than main level */
+    width: auto;
+    border-radius:16px;
+}
+
+nav li:hover li a:hover { 
+    background: #95A9B1; 
+    border-radius:16px;
+}
+
+nav ul li ul li a {
+    width: 150px;
+    text-align:left; /* Top-level items are centered, but nested list items are left-aligned */
+    border-radius:16px;
+}
+
+
+h2 {
+	color: black;
+	background: #C2E0FF;
+    border-color: white;
+	display: inline;
+	margin: 10px 0 10px 20px;
+    border-radius:5px;
+}
+
+h5 {
+	margin: 0 0 0 30px;
+}
+
+#titulos {
+	float: left;
+	display: table;
+	vertical-align: middle;
+}
+
+#tabla {
+	font-size: 15px;
+    color: black;
+    border:3px solid;
+    border-color: #C2E0FF;
+    border-spacing: 20px 0px;
+    background-color: white;
+	border-radius: 20px;
+	margin: 5px 0 5px 0;
+}
+
+#tabla img {
+    height: 90px;
+}
+
+.subtitulo {
+	font-style: italic;
+	font-size: 12px;
+	margin: 0 0 35px 0;
+}
+
+h1 {
+	margin: 0;
+}
+
+.foto {
+	float: left;
+    border-radius:150px;
+	margin: 5px;
+}
+#contactar {
+	margin: 10px;
+}
+
+#logo {
+    border-radius:15px;
+	margin: 5px;
+}
+
+th {
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+input[type="submit"], input[type="button"], button {
+	border-radius: 5px;
+	margin: 0 0 0 20px;
+	background: #C2E0FF;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-weight: bold
+}
+
+#logos {
+	display: inline;
+}
+
+#logos img {
+	height: 50px;
+	float: right;
+	margin: 0 20px 0 0;
+	border-radius: 15px;
+	background-color: white;
+}
+
+#escuela {
+	float: right;
+	border-radius: 10px;
+	width: 350px;
+	height: auto;
+	margin: 10px;
+}
+
+#usuario {
+	color: black;
+	background-color: white;
+	font-size: 25px;
+	margin: 20px 5px 0 150px;
+	display: inline;
+	border: 1px solid;
+	border-radius: 5px;
+	border-color: black;
+}
+
+#usuario img {
+	height: 20px;
+	margin: 2px;
+}
+
+#guia {
+	float: right;
+	background-color: grey;
+	border-radius: 10px;
+	border: 2px solid;
+	border-color: #C2E0FF;
+}
+
+h3 {
+	color: white;
+}
